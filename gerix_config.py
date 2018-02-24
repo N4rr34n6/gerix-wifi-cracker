@@ -1,4 +1,4 @@
-#!usr/bin/python
+#/usr/bin/python
 
 # == Configuration file for GerixWifiCracker-NG ==
 #
@@ -94,7 +94,7 @@ def config_init():
     #     set_random_mac(intf)
     #     set_wifi_mode(intf, 'monitor')
     #     select_interface = intf
-        
+
 
     return 0
 

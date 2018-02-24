@@ -1,16 +1,19 @@
-##Gerix WiFi Cracker 2018
+# Gerix WiFi Cracker 2018
 -----------------------------------------------------------------------------------------------
-#NOTE: 
+## NOTE: 
 This tool has been re-written to run on Kali (2018.1)
 
-#DEPENDENCIES:
+## DEPENDENCIES:
 apt-get install qt4-dev-tools
 
-#TODO:
-- Go through the old code, fix indentation and other stuff (W.I.P)
+## TODO:
+- Go through the old code, fix indentation and other stuff (COMPLETE)
+- Add a updater for the tool.
 - Add a WPS tab + support for WPS cracking (Reaver / Bully, or support for both)
+- Consider renaming the project?
+- Fix new graphics.
 
-#LAUNCH:
+## LAUNCH:
 
 To launch the program use:
 $ python gerix.py

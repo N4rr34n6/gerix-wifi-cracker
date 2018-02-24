@@ -11,11 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Gerix wifi cracker 2</string>
+   <string>Gerix WiFi Cracker 2018</string>
   </property>
   <widget class="QWidget" name="widget">
    <layout class="QGridLayout">
-    <item row="1" column="0" colspan="3">
+    <item row="1" column="0" colspan="2">
      <widget class="QTextEdit" name="text_output">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
@@ -38,32 +38,6 @@
      </widget>
     </item>
     <item row="4" column="1">
-     <widget class="QLabel" name="pixmapLabel1">
-      <property name="pixmap">
-       <pixmap>gerix.png</pixmap>
-      </property>
-      <property name="scaledContents">
-       <bool>true</bool>
-      </property>
-      <property name="wordWrap">
-       <bool>false</bool>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="0">
-     <spacer name="horizontalSpacer">
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-      <property name="sizeHint" stdset="0">
-       <size>
-        <width>40</width>
-        <height>20</height>
-       </size>
-      </property>
-     </spacer>
-    </item>
-    <item row="4" column="2">
      <spacer name="horizontalSpacer_2">
       <property name="orientation">
        <enum>Qt::Horizontal</enum>
@@ -76,10 +50,10 @@
       </property>
      </spacer>
     </item>
-    <item row="0" column="0" colspan="3">
+    <item row="0" column="0" colspan="2">
      <widget class="QTabWidget" name="tabWidget2">
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -152,12 +126,7 @@
            <bool>true</bool>
           </property>
           <property name="text">
-           <string>Hello and Welcome!&lt;br&gt;
-Gerix Wifi Cracker 2 is a GUI that can help you to work in Wireless 802.11 Penetration Test.&lt;br&gt;
-Upgraded from Gerix Wifi Cracker by Jarett&lt;br&gt;
-Thanks Emanuele Gentili and Emanuele Acri and Skin36 &lt;br&gt;
-The tool is under GPL 2 License.&lt;br&gt;
-enjoy!&lt;br&gt;</string>
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hello and Welcome!&lt;br/&gt;Gerix WiFi Cracker 2018 is a GUI that can help you to work with WiFi penetration testing.&lt;br/&gt;&lt;br/&gt;Thanks Emanuele Gentili, Emanuele Acri, Skin36, Jarret &amp;amp; kimocoder&lt;br/&gt;The tool is under GPL 2 License.&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Enjoy!&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
           <property name="textFormat">
            <enum>Qt::AutoText</enum>
@@ -184,8 +153,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>618</width>
-             <height>428</height>
+             <width>608</width>
+             <height>469</height>
             </rect>
            </property>
            <attribute name="label">
@@ -470,8 +439,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>261</width>
-             <height>160</height>
+             <width>254</width>
+             <height>158</height>
             </rect>
            </property>
            <attribute name="label">
@@ -533,8 +502,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>479</width>
-             <height>370</height>
+             <width>594</width>
+             <height>362</height>
             </rect>
            </property>
            <attribute name="label">
@@ -638,8 +607,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>287</width>
-             <height>528</height>
+             <width>275</width>
+             <height>516</height>
             </rect>
            </property>
            <attribute name="label">
@@ -801,8 +770,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>307</width>
-             <height>231</height>
+             <width>297</width>
+             <height>228</height>
             </rect>
            </property>
            <attribute name="label">
@@ -932,8 +901,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>261</width>
-             <height>160</height>
+             <width>254</width>
+             <height>158</height>
             </rect>
            </property>
            <attribute name="label">
@@ -995,8 +964,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>504</width>
-             <height>279</height>
+             <width>608</width>
+             <height>400</height>
             </rect>
            </property>
            <attribute name="label">
@@ -1092,6 +1061,11 @@ enjoy!&lt;br&gt;</string>
         </item>
        </layout>
       </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>WPS</string>
+       </attribute>
+      </widget>
       <widget class="QWidget" name="TabPage">
        <attribute name="title">
         <string>Fake AP</string>
@@ -1117,8 +1091,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>655</width>
-             <height>387</height>
+             <width>646</width>
+             <height>420</height>
             </rect>
            </property>
            <attribute name="label">
@@ -1352,8 +1326,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>573</width>
-             <height>116</height>
+             <width>608</width>
+             <height>366</height>
             </rect>
            </property>
            <attribute name="label">
@@ -1409,8 +1383,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>332</width>
-             <height>315</height>
+             <width>323</width>
+             <height>308</height>
             </rect>
            </property>
            <attribute name="label">
@@ -1508,8 +1482,8 @@ enjoy!&lt;br&gt;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>544</width>
-             <height>180</height>
+             <width>525</width>
+             <height>176</height>
             </rect>
            </property>
            <attribute name="label">
@@ -1675,16 +1649,7 @@ enjoy!&lt;br&gt;</string>
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
          <layout class="QHBoxLayout">
-          <property name="leftMargin">
-           <number>8</number>
-          </property>
-          <property name="topMargin">
-           <number>8</number>
-          </property>
-          <property name="rightMargin">
-           <number>8</number>
-          </property>
-          <property name="bottomMargin">
+          <property name="margin">
            <number>8</number>
           </property>
           <item>
@@ -1713,7 +1678,7 @@ enjoy!&lt;br&gt;</string>
              </font>
             </property>
             <property name="text">
-             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;V1 Authors:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Credits&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
             <property name="wordWrap">
              <bool>false</bool>
@@ -1747,61 +1712,13 @@ http://www.gerix.it
 
 Emanuele Acri - crossbower@backtrack-linux.org
 Gerix.IT Penetration Tester
-http://www.backtrack.it/~crossbower/</string>
-          </property>
-          <property name="wordWrap">
-           <bool>false</bool>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <layout class="QHBoxLayout" name="horizontalLayout">
-          <item>
-           <spacer name="spacer39_3">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="sizeType">
-             <enum>QSizePolicy::Expanding</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>61</width>
-              <height>20</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-          <item>
-           <widget class="QLabel" name="textLabel15">
-            <property name="text">
-             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;V2 Authors:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <spacer name="spacer39_2">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="sizeType">
-             <enum>QSizePolicy::Expanding</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>61</width>
-              <height>20</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-         </layout>
-        </item>
-        <item>
-         <widget class="QLabel" name="textLabel17_2">
-          <property name="text">
-           <string>Jarett - zyrdyx@gmail.com
-http://www.nigesb.com</string>
+http://www.backtrack.it/~crossbower/
+
+Jarett - zyrdyx@gmail.com
+http://www.nigesb.com
+
+kimocoder
+https://github.com/kimocoder</string>
           </property>
           <property name="wordWrap">
            <bool>false</bool>
@@ -1863,6 +1780,22 @@ http://www.nigesb.com</string>
     <hint type="destinationlabel">
      <x>20</x>
      <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_wep_assoc_fake_auth_frag</sender>
+   <signal>clicked()</signal>
+   <receiver>Main_window</receiver>
+   <slot>slot_fake_auth()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>120</x>
+     <y>282</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>2</x>
+     <y>309</y>
     </hint>
    </hints>
   </connection>
@@ -1931,22 +1864,6 @@ http://www.nigesb.com</string>
    </hints>
   </connection>
   <connection>
-   <sender>button_wep_start_sniff</sender>
-   <signal>clicked()</signal>
-   <receiver>Main_window</receiver>
-   <slot>slot_start_sniffing()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>40</x>
-     <y>123</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>20</x>
-     <y>20</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
    <sender>button_wpa_autoload_clients</sender>
    <signal>clicked()</signal>
    <receiver>Main_window</receiver>
@@ -1979,6 +1896,38 @@ http://www.nigesb.com</string>
    </hints>
   </connection>
   <connection>
+   <sender>button_wep_assoc_fake_auth_req</sender>
+   <signal>clicked()</signal>
+   <receiver>Main_window</receiver>
+   <slot>slot_fake_auth()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>277</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>6</x>
+     <y>141</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_random_mac</sender>
+   <signal>clicked()</signal>
+   <receiver>Main_window</receiver>
+   <slot>slot_random_mac()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>228</x>
+     <y>259</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
    <sender>button_wpa_test_inj</sender>
    <signal>clicked()</signal>
    <receiver>Main_window</receiver>
@@ -1995,14 +1944,14 @@ http://www.nigesb.com</string>
    </hints>
   </connection>
   <connection>
-   <sender>combo_wpa_mac_hand</sender>
-   <signal>textChanged(QString)</signal>
+   <sender>button_wep_start_sniff</sender>
+   <signal>clicked()</signal>
    <receiver>Main_window</receiver>
-   <slot>slot_line_wpa_mac_hand()</slot>
+   <slot>slot_start_sniffing()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>40</x>
-     <y>167</y>
+     <y>123</y>
     </hint>
     <hint type="destinationlabel">
      <x>20</x>
@@ -2027,30 +1976,46 @@ http://www.nigesb.com</string>
    </hints>
   </connection>
   <connection>
-   <sender>line_gath_logs</sender>
-   <signal>textChanged(QString)</signal>
+   <sender>button_wep_start_rep</sender>
+   <signal>clicked()</signal>
    <receiver>Main_window</receiver>
-   <slot>slot_line_gath_logs()</slot>
+   <slot>slot_wep_start_rep()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>31</x>
-     <y>95</y>
+     <x>116</x>
+     <y>212</y>
     </hint>
     <hint type="destinationlabel">
-     <x>20</x>
-     <y>20</y>
+     <x>14</x>
+     <y>-4</y>
     </hint>
    </hints>
   </connection>
   <connection>
-   <sender>spin_wpa_deauth_hand</sender>
-   <signal>valueChanged(int)</signal>
+   <sender>table_interfaces</sender>
+   <signal>itemSelectionChanged()</signal>
    <receiver>Main_window</receiver>
-   <slot>slot_line_wpa_deauth_hand()</slot>
+   <slot>slot_interface_selected()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>322</x>
+     <y>197</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>323</x>
+     <y>320</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>combo_wpa_mac_hand</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Main_window</receiver>
+   <slot>slot_line_wpa_mac_hand()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>40</x>
-     <y>240</y>
+     <y>167</y>
     </hint>
     <hint type="destinationlabel">
      <x>20</x>
@@ -2059,30 +2024,14 @@ http://www.nigesb.com</string>
    </hints>
   </connection>
   <connection>
-   <sender>button_random_mac</sender>
+   <sender>button_wpa_start_sniff</sender>
    <signal>clicked()</signal>
    <receiver>Main_window</receiver>
-   <slot>slot_random_mac()</slot>
+   <slot>slot_start_sniffing()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>228</x>
-     <y>259</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>20</x>
-     <y>20</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>line_database</sender>
-   <signal>textChanged(QString)</signal>
-   <receiver>Main_window</receiver>
-   <slot>slot_line_database()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>199</x>
-     <y>436</y>
+     <x>40</x>
+     <y>123</y>
     </hint>
     <hint type="destinationlabel">
      <x>20</x>
@@ -2098,22 +2047,6 @@ http://www.nigesb.com</string>
    <hints>
     <hint type="sourcelabel">
      <x>113</x>
-     <y>435</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>20</x>
-     <y>20</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>button_database_reload</sender>
-   <signal>clicked()</signal>
-   <receiver>Main_window</receiver>
-   <slot>slot_database_reload()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>480</x>
      <y>435</y>
     </hint>
     <hint type="destinationlabel">
@@ -2155,14 +2088,14 @@ http://www.nigesb.com</string>
    </hints>
   </connection>
   <connection>
-   <sender>button_monitor</sender>
-   <signal>clicked()</signal>
+   <sender>line_gath_logs</sender>
+   <signal>textChanged(QString)</signal>
    <receiver>Main_window</receiver>
-   <slot>slot_monitor()</slot>
+   <slot>slot_line_gath_logs()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>426</x>
-     <y>259</y>
+     <x>31</x>
+     <y>95</y>
     </hint>
     <hint type="destinationlabel">
      <x>20</x>
@@ -2171,14 +2104,14 @@ http://www.nigesb.com</string>
    </hints>
   </connection>
   <connection>
-   <sender>button_wpa_start_sniff</sender>
-   <signal>clicked()</signal>
+   <sender>spin_wpa_deauth_hand</sender>
+   <signal>valueChanged(int)</signal>
    <receiver>Main_window</receiver>
-   <slot>slot_start_sniffing()</slot>
+   <slot>slot_line_wpa_deauth_hand()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>40</x>
-     <y>123</y>
+     <y>240</y>
     </hint>
     <hint type="destinationlabel">
      <x>20</x>
@@ -2187,18 +2120,34 @@ http://www.nigesb.com</string>
    </hints>
   </connection>
   <connection>
-   <sender>table_interfaces</sender>
-   <signal>itemSelectionChanged()</signal>
+   <sender>line_database</sender>
+   <signal>textChanged(QString)</signal>
    <receiver>Main_window</receiver>
-   <slot>slot_interface_selected()</slot>
+   <slot>slot_line_database()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>322</x>
-     <y>197</y>
+     <x>199</x>
+     <y>436</y>
     </hint>
     <hint type="destinationlabel">
-     <x>323</x>
-     <y>320</y>
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_database_reload</sender>
+   <signal>clicked()</signal>
+   <receiver>Main_window</receiver>
+   <slot>slot_database_reload()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>480</x>
+     <y>435</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
     </hint>
    </hints>
   </connection>
@@ -2215,6 +2164,54 @@ http://www.nigesb.com</string>
     <hint type="destinationlabel">
      <x>323</x>
      <y>320</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_monitor</sender>
+   <signal>clicked()</signal>
+   <receiver>Main_window</receiver>
+   <slot>slot_monitor()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>426</x>
+     <y>259</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_wep_test_inj</sender>
+   <signal>clicked()</signal>
+   <receiver>Main_window</receiver>
+   <slot>slot_test_inj()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>182</x>
+     <y>199</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>3</x>
+     <y>111</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_wep_arp_inj_cfrag</sender>
+   <signal>clicked()</signal>
+   <receiver>Main_window</receiver>
+   <slot>slot_wep_arp_inj_cfrag()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>130</x>
+     <y>533</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>4</x>
+     <y>399</y>
     </hint>
    </hints>
   </connection>
@@ -2247,86 +2244,6 @@ http://www.nigesb.com</string>
     <hint type="destinationlabel">
      <x>7</x>
      <y>31</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>button_wep_start_rep</sender>
-   <signal>clicked()</signal>
-   <receiver>Main_window</receiver>
-   <slot>slot_wep_start_rep()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>116</x>
-     <y>212</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>14</x>
-     <y>-4</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>button_wep_arp_inj_cfrag</sender>
-   <signal>clicked()</signal>
-   <receiver>Main_window</receiver>
-   <slot>slot_wep_arp_inj_cfrag()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>130</x>
-     <y>533</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>4</x>
-     <y>399</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>button_wep_test_inj</sender>
-   <signal>clicked()</signal>
-   <receiver>Main_window</receiver>
-   <slot>slot_test_inj()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>182</x>
-     <y>199</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>3</x>
-     <y>111</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>button_wep_assoc_fake_auth_frag</sender>
-   <signal>clicked()</signal>
-   <receiver>Main_window</receiver>
-   <slot>slot_fake_auth()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>120</x>
-     <y>282</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>2</x>
-     <y>309</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>button_wep_assoc_fake_auth_req</sender>
-   <signal>clicked()</signal>
-   <receiver>Main_window</receiver>
-   <slot>slot_fake_auth()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>72</x>
-     <y>277</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>6</x>
-     <y>141</y>
     </hint>
    </hints>
   </connection>
