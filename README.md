@@ -7,10 +7,14 @@ This tool has been re-written to run on Kali (2018.1)
 apt-get install qt4-dev-tools
 
 ## TODO:
-- Go through the old code, fix indentation and other stuff (COMPLETE)
 - Add a updater for the tool.
 - Add a WPS tab + support for WPS cracking (Reaver / Bully, or support for both)
 - Consider renaming the project?
+- Change deprecated "iwconfig" with the use of "iw"
+- Consider adding "hashcat" GPU cracking option.
+- WPA handshake capture is slow, considering enhancement to it.
+  wifite2 got a VERY FAST handshake capturing method, consider using that code.
+
 - Fix new graphics.
 
 ## LAUNCH:

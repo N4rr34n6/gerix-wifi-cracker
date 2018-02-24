@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>648</width>
-    <height>685</height>
+    <width>674</width>
+    <height>692</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -153,8 +153,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>608</width>
-             <height>469</height>
+             <width>634</width>
+             <height>476</height>
             </rect>
            </property>
            <attribute name="label">
@@ -432,7 +432,7 @@
         <item row="1" column="0">
          <widget class="QToolBox" name="toolBox2_2">
           <property name="currentIndex">
-           <number>1</number>
+           <number>0</number>
           </property>
           <widget class="QWidget" name="page1">
            <property name="geometry">
@@ -502,7 +502,7 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>594</width>
+             <width>464</width>
              <height>362</height>
             </rect>
            </property>
@@ -894,7 +894,7 @@
         <item row="1" column="0">
          <widget class="QToolBox" name="toolBox4_2">
           <property name="currentIndex">
-           <number>1</number>
+           <number>0</number>
           </property>
           <widget class="QWidget" name="page2">
            <property name="geometry">
@@ -964,8 +964,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>608</width>
-             <height>400</height>
+             <width>484</width>
+             <height>272</height>
             </rect>
            </property>
            <attribute name="label">
@@ -1092,7 +1092,7 @@
              <x>0</x>
              <y>0</y>
              <width>646</width>
-             <height>420</height>
+             <height>379</height>
             </rect>
            </property>
            <attribute name="label">
@@ -1319,19 +1319,19 @@
         <item row="1" column="0">
          <widget class="QToolBox" name="toolBox5_3">
           <property name="currentIndex">
-           <number>0</number>
+           <number>1</number>
           </property>
           <widget class="QWidget" name="page1">
            <property name="geometry">
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>608</width>
-             <height>366</height>
+             <width>547</width>
+             <height>114</height>
             </rect>
            </property>
            <attribute name="label">
-            <string>WEP cracking</string>
+            <string>WEP Cracking</string>
            </attribute>
            <layout class="QVBoxLayout">
             <item>
@@ -1388,7 +1388,7 @@
             </rect>
            </property>
            <attribute name="label">
-            <string>WPA bruteforce cracking</string>
+            <string>WPA Bruteforce Cracking</string>
            </attribute>
            <layout class="QGridLayout">
             <item row="0" column="0">
@@ -1487,7 +1487,7 @@
             </rect>
            </property>
            <attribute name="label">
-            <string>WPA rainbow tables cracking</string>
+            <string>WPA Rainbow Tables Cracking</string>
            </attribute>
            <layout class="QGridLayout">
             <item row="1" column="0">
@@ -1546,6 +1546,19 @@
              </widget>
             </item>
            </layout>
+          </widget>
+          <widget class="QWidget" name="page_2">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>98</width>
+             <height>28</height>
+            </rect>
+           </property>
+           <attribute name="label">
+            <string>WPS Cracking</string>
+           </attribute>
           </widget>
          </widget>
         </item>

@@ -1,4 +1,4 @@
-#/usr/bin/python
+#/usr/bin/env python2
 
 # == Configuration file for GerixWifiCracker-NG ==
 #
@@ -14,8 +14,6 @@
 #
 
 
-
-
 # Don't modify these lines
 #
 import sys
@@ -24,7 +22,6 @@ import time
 import re
 import commands
 #import subprocess
-
 
 
 #
